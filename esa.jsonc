@@ -1,0 +1,15 @@
+{
+    "name": "ai-name-generator",
+    "routes": [
+        {
+            "path": "/api/name-storage",
+            "function": "name-storage"
+        }
+    ],
+    "functions": [
+        {
+            "name": "name-storage",
+            "entry": "edge-functions/name-storage.js"
+        }
+    ]
+}
